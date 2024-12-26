@@ -26,7 +26,7 @@ Note that the outputted array always has -1 at index 0
 In the "commands" array in the main function, you can place as many commands as you want using this format:
 1. Without whitespace write the "long" version of your command
 2. Follow it with a whitespace, a comma and another whitespace ' , '
-3. Write the "short" version of your command (single character only!!); If there does not exist a short version simply put an exclamation mark '!' instead
+3. Write the "short" version of your command (single character only!!); If there doesn't exist a short version simply put an exclamation mark '!' instead
 
 IMPORTANT: 
 After you filled the array make sure to set the "MAXCOMMANDS" constant at the top of the file to the corresponding number (= the ammount of commands in the list) 
