@@ -1,8 +1,11 @@
 This simple program analyses the command line arguments passed to it and compares it to an exisiting list of arguments you can set up in the main function.
 It will return an array of integers responding to the place of the found command in the existing array (0 meaning first argument etc.) 
 Example:
+
 <img width="370" alt="image" src="https://github.com/user-attachments/assets/cf700071-273b-4d3f-9fea-67451104da5f" />
+
 0 is at the first index of the returned array, because the "help" command (short name is 'h') is at the index of 0 in the command list:
+
 <img width="391" alt="image" src="https://github.com/user-attachments/assets/eb6d4a9a-3e4a-4407-9c39-a72624f410e4" />
 
 There exist two 'modes' for cli arguments, the "short" mode, meaning a single character argument preceded by a '-' and "long" mode, meaning a string of characters preceeded by '--'
