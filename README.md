@@ -34,6 +34,6 @@ After you filled the array make sure to set the "MAXCOMMANDS" constant at the to
 Additionaly you can adjust the "MAXARGV" constant in the comandparser function to limit the size ofthe array that is returned, in turn limiting the ammount of commands parsed 
 
 ## To do:
-- make it possible to detect and not use redundand imputs 
+- make it possible to detect and not use redundant imputs 
 - take the provided array and call the associated function 
 - take inputs after argumemts (e.g. --add 1 2 adds the two numbers)
