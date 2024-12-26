@@ -24,6 +24,7 @@ In the "commands" array in the main function, you can place as many commands as 
 2. Follow it with a whitespace, a comma and another whitespace ' , '
 3. Write the "short" version of your command (single character only!!); If there does not exist a short version simply put an exclamation mark '!' instead
 
-# IMPORTANT: After you filled the array make sure to set the "MAXCOMMANDS" constant at the top of the file to the corresponding number (= the ammount of commands in the list) 
+# IMPORTANT: 
+After you filled the array make sure to set the "MAXCOMMANDS" constant at the top of the file to the corresponding number (= the ammount of commands in the list) 
 
 Additionaly you can adjust the "MAXARGV" constant in the comandparser function to limit the size ofthe array that is returned, in turn limiting the ammount of commands parsed 
