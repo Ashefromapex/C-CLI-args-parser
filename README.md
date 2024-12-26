@@ -11,9 +11,13 @@ Example:
 There exist two 'modes' for cli arguments, the "short" mode, meaning a single character argument preceded by a '-' and "long" mode, meaning a string of characters preceeded by '--'
 
 In case no command is found at the corresponding place the array displays 
+
 -1 in case nothing is found 
+
 -2 in case that the command provided is too long (more than 1 character after '-')
+
 -10 if no mode was detected 
+
 
 Note that the outputted array always has -1 at index 0 
 
